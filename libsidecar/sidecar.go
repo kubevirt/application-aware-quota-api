@@ -9,10 +9,10 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/rand"
 	"k8s.io/klog"
+	aaqsidecarevaluate "kubevirt.io/application-aware-quota-api/libsidecar/evaluator-server-com"
 	"net"
 	"os"
 	"path/filepath"
-	aaqsidecarevaluate "sidecar/evaluator-server-com"
 )
 
 const (
