@@ -1,4 +1,4 @@
-module libsidecar
+module kubevirt.io/application-aware-quota-api/libsidecar
 
 go 1.20
 
